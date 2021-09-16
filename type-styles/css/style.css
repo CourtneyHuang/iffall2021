@@ -1,0 +1,67 @@
+html {
+    font-family: merriweather, serif;
+    color: rgb(57, 95, 74);
+    font-size: 21pt;
+    background-color: rgb(176, 230, 203);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-indent: 10%;
+}
+
+h6 {
+    text-indent: 20%;
+}
+
+p {
+    text-indent: 20%;
+    word-wrap: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.em1 {
+    letter-spacing: -0.09em;
+}
+
+.em2 {
+    letter-spacing: 0.1em;
+}
+
+.transform1 {
+    text-transform: capitalize;
+}
+
+.transform2 {
+    text-transform: uppercase;
+}
+
+.transform3 {
+    text-transform: lowercase;
+}
+
+.decor1 {
+    text-decoration: line-through;
+}
+
+.decor2 {
+    text-decoration: underline;
+}
+
+.decor3 {
+    text-decoration: overline;
+}
