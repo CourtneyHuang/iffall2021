@@ -1,0 +1,100 @@
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+
+}
+
+h2 {
+    color: chocolate;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+}
+
+h3 {
+    color: chocolate;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    
+}
+
+h4 {
+    color: chocolate;
+    text-indent: 1em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: italic;
+}
+
+p {
+    color: rgb(59, 77, 29);
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    background-color: rgb(247, 226, 173);
+}
+
+ul {
+    color: rgb(59, 77, 29);
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+ol {
+    color: rgb(59, 77, 29);
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+img {
+    height: 450px;
+    width: 300px;
+}
+
+div {
+    margin: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+    line-height: 1.5em;
+    column-count: 2;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+
+.ingredients {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 5%;
+
+
+
+}
+
+.steps {
+    display: grid;
+    margin-left: 35%;
+    margin-top: -70.3em;
+   
+
+}
+
+.list1 {
+    margin-top: -2em;
+}
+
+.list2 {
+    margin-top: -.3em;
+}
+
+.sweet-potato {
+    width: 100%;
+}
+
+.dressing {
+    object-fit: cover;
+}
+
+
