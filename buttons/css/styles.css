@@ -1,0 +1,499 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#btnspotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#btnspotify:hover {
+    background-color: darkgreen;
+}
+
+#btn_twitter {
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: deepskyblue;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+#btn_twitter:hover {
+    background-color: turquoise;
+    box-shadow: 0 0 8px #e2e791;
+}
+
+#btn_twitter:active {
+    background-color: darkturquoise;
+    box-shadow: yellow;
+}
+
+#btn_hulu {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 30px 40px;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(92, 224, 92);
+    font-family: 'Russo One', sans-serif;
+}
+
+#btn_hulu:hover {
+    box-shadow: 0 0 8px rgb(92, 224, 92);
+}
+
+#btn_hulu:active {
+    transform: scale(0.7);
+    padding: 15px 30px;
+}
+
+#btn_instagram {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px 20px 40px 20px;
+    background: linear-gradient(135deg, #6607ff 5%,#f7b91d 31%,#fba6e1 53%,#fd89d7 78%,#fc0047 100%);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+#btn_instagram:hover {
+    color: black;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+@keyframes ig {
+    from { transform: scale(-0.7); }
+    33% { transform: scale(0.4); }
+    66% { transform: scale(-0.4); }
+    to { transform: scale(0.7); }
+}
+
+#btn_instagram:active {
+    display: block;
+    transform-origin: center bottom;
+    animation-name: ig;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#btn_pinterest {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 20px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-family: lemongrass-script, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+#btn_pinterest:active {
+    transform: scale(0.7);
+    transition-duration: .5s;
+}
+
+#btn_asos {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn_asos:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+#btn_youtube {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#yttext {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+#yt {
+    display: inline-block;
+    position: inherit;
+    top: 0;
+    left: 0;
+    color: red;
+}
+
+#yt:hover {
+    color: black;
+} 
+
+#btn_youtube:hover {
+    background-color: black;
+}
+
+#apple {
+    color: black;
+    display: inline-block;
+    height: 70px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 5px 20px 10px 20px;
+    font-size: 80px;
+}
+
+#apple:hover {
+    color: silver;
+}
+
+#btn_dropbox {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: rgb(66, 148, 255);
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#dropbox {
+    color: rgb(66, 148, 255);
+}
+
+#btn_dropbox:active {
+    transform: scale(2);
+    transition-duration: .5s;
+}
+
+#btn_starbucks {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: none;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#btn_starbucks:hover {
+    color: white;
+    background-color: rgb(35, 82, 35);
+}
+
+#btn_netflix {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 40px 30px 40px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+@keyframes netflix {
+    from { transform: translateY(-60px); }
+    33% { transform: translateY(40px); }
+    66% { transform: translateY(-40px); }
+    to { transform: translateY(60px); }
+  }
+
+#btn_netflix:active {
+    display: block;
+    transform-origin: center bottom;
+    animation-name: netflix;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#btn_glossier {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 40px 30px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#btn_glossier:active {
+    background-color: blue;
+    transform: scale(0.9);
+    padding: 15px 30px;
+}
+
+#btn_lollapalooza {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Sonsie One', cursive;
+}
+
+#btn_lollapalooza:hover {
+    background: linear-gradient(-45deg, #8493f4 0%,#72e858 29%,#e6f204 55%,#ff6600 79%,#c72200 100%);
+    color: white;
+    box-shadow: 0 0 8px lightgreen;
+}
+
+#btn_shazam {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 40px;
+    background-color: rgb(50, 122, 255);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+
+@keyframes shazam {
+    from { transform: rotate(-20deg); }
+    33% { transform: rotate(90deg); }
+    66% { transform: rotate(-90deg); }
+    to { transform: rotate(20deg); }
+  }
+
+#btn_shazam:hover {
+    display: block;
+    transform-origin: center bottom;
+    animation-name: shazam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#btn_bathing {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: lightgray;
+    font-family: 'Judson', serif;
+}
+
+#btn_bathing:hover {
+    color: black;
+}
+
+#btn_monotype {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 10px 50px 10px;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn_monotype:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
+    box-shadow: 0 0 10px blueviolet;
+}
+
+#btn_aiga {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 50px 50px 50px;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(255, 133, 149);
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn_aiga:hover {
+    background-color: rgb(255, 197, 226);
+}
+
+#btn_snapchat {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 30px 30px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: yellow;
+}
+
+#btn_snapchat:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px black;
+}
+
+@keyframes vsco {
+    from { transform: translateY(-50px); }
+    33% { transform: translateY(20px); }
+    66% { transform: translateY(-20px); }
+    to { transform: translateY(50px); }
+  }
+
+#btn_vsco {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 3px;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    transform-origin: center bottom;
+    animation-name: vsco;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#btn_ocearch {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: rgb(66, 148, 255);
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 5px 60px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+@keyframes ocearch {
+    from { transform: translateY(-10px); }
+    33% { transform: translateY(5px); }
+    66% { transform: translateY(-10px); }
+    to { transform: translateY(5px); }
+  }
+
+#ocearch {
+    color: white;
+    display: block;
+    transform-origin: center bottom;
+    animation-name: ocearch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#btn_ocearch:active {
+    transform: scale(2);
+    transition-duration: .5s;
+}
