@@ -1,0 +1,23 @@
+.grid img {
+    width: 500px;
+}
+
+.grid li {
+    display: block;
+    padding: 0;
+    width: 50%;
+}
+
+.grid {
+    padding: 0;
+}
+
+.img1 li{
+    width: 500px;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.img2 {
+    vertical-align: top;
+}
