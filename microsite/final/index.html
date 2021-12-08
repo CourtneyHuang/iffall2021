@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/itr0vtm.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <title>Durango, Colorado</title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		
+		<!-- This is where I'm including the jQuery library into the page. Add this on every page of your site -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- This is my own jQuery. You should create a separate file and link to it as above. -->
+		<script>
+
+			$( document ).ready(function() {			/* Here we're using JQuery to check that the DOM (the document) is ready */
+			    
+				$(".controls").click(function(){		/* This line says to listen for a "click" event on something with with the class of "controls" */
+					$("#drawer").toggleClass("open");	/* A click happened, so now we toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+					console.log("Toggled the class!");	/* For help troubleshooting, we're logging a note to the browser console so we can see that the function ran */
+				});
+
+			});
+
+		</script>
+    </head>
+    <body>
+        <header>
+            <!--div class="quote-wrapper">
+                <blockquote class="text">
+                  <p>Durango, Colorado</p>
+                </blockquote>
+              </div-->
+
+            <!--nav id="mainnav">
+                <ul>
+                    <li>
+                        <a href="#Intro">Intro</a>
+                    </li>
+                    <li>
+                        <a href="#History">History</a>
+                    </li>
+                    <li>
+                        <a href="#Climate">Climate</a>
+                    </li>
+                    <li>
+                        <a href="#Culture">Culture</a>
+                    </li>
+                </ul>
+            </nav-->
+            <h1>Durango, Colorado</h1>
+
+            <div id="drawer">
+                <button class="controls"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <div class="contents">
+                    <ul class="navlist">
+                        <li>
+                            <a href="#Intro">Intro</a>
+                        </li>
+                        <li>
+                            <a href="#History">History</a>
+                        </li>
+                        <li>
+                            <a href="#Climate">Climate</a>
+                        </li>
+                        <li>
+                            <a href="#Culture">Culture</a>
+                        </li>
+                        <li>
+                            <a href="#Sources">Sources</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!--WEBSITE BODY COPY STARTS HERE-->
+        <main>
+        <a id="Intro">
+        <div>
+            <ul>
+                <li class="subtitles">Intro</li>
+                <li>The City of Durango is the home rule municipality that is the county seat and the most populous municipality of La Plata County, Colorado, United States. The city population was 19,071 at the 2020 United States Census. Durango is the home of Fort Lewis College.
+                </li>
+            </ul>
+        </div>
+        </a>
+        <a id="History">
+        <div>
+            <ul class="history">
+                <li class="subtitles">History</li>
+                <li id="historycopy">The town was organized from September 1880 to April 1881 by the Denver and Rio Grande Railroad (D&RG, later known as the Denver and Rio Grande Western railroad) as part of their efforts to reach Silverton, Colorado, and service the San Juan mining district, the goal of their "San Juan Extension" built from Alamosa Colorado. The D&RG chose a site in the Animas Valley close to the Animas River near what's now the Downtown Durango Historic Business District for its railroad facilities following a brief and most likely perfunctory negotiation with the other establishment in the area known as Animas City, two miles to the north. The city was named by ex-Colorado Governor Alexander C. Hunt, a friend of D&RG President William Jackson Palmer, after Durango, Mexico, based on his favorable impression of that city resulting from a scouting trip undertaken on behalf of Palmer.</li>
+                <li id="img">
+                    <img src="images/durango-08.jpg" alt="durango-08">
+                </li>
+            </ul>
+        </div>
+        </a>
+        <a id="Climate">
+        <div>
+            <ul>
+                <li class="subtitles">Climate</li>
+                <li>
+                    <img id="climateimg" src="images/durango-07.jpg" alt="durango-07">
+                    <p> According to the Köppen climate classification system, Durango has a mediterranean continental climate. The average annual precipitation is 19.33 in (491 mm). Its hardiness zone is 5b.</p>
+                    <p>Summer recreation: With mountains to climb, rivers to raft, trails to hike, horses to ride, and so much more, a whole summer is barely enough time to get in all of the outdoor recreation Durango has to offer. Our temperate climate and unique landscape means you'll have plenty of warm (not too hot!), sunny days to explore our surrounding San Juan Mountains, spend a day on the lake, zipline, or any other number of outdoor adventures. Get ready to get outside in Durango!</p>
+                    <p>Winter recreation: When the snow flies, Durango comes alive! With bluebird skies and things to do for the whole family, find your escape in Durango this winter. Winter activities include everything from skiing and snowboarding to dogsledding.</p>
+                </li>
+            </ul>
+        </div>
+        </a>
+        <a id="Culture">
+        <div>
+            <ul>
+                <li class="subtitles">Culture</li>
+                <li>
+                    <p>
+                    Main Avenue is a Nationally Registered Historic District that cuts through downtown Durango and is home to galleries, boutiques, restaurants, bars, and other businesses. Two notable and historic hotels, The General Palmer and The Strater, lie at the south end of the avenue, near the Durango & Silverton Narrow Gauge Railroad depot. With its combination of historic architecture, entertainment, and shopping, Main Avenue has historically comprised the center of Durango and is a popular year-round tourist destination.
+                    </p>
+                    <img class="cultureimgs" src="images/durango-10.jpg" alt="durango-10">
+                    <p>
+                    Durango and silvertown narrow gauge railroad: Durango is known worldwide for the Durango & Silverton Narrow Gauge Railroad, a heritage railroad that operates what was the Denver & Rio Grande Western's Branchline to the historic mining town of Silverton, Colorado, also still notably using historic D&RGW Steam Locomotives and other historic rail equipment.
+                    </p>
+                    <img class="cultureimgs" src="images/durango-05.jpg" alt="durango-05">
+                    <p>
+                    The Animas River Valley begins in the heart of the San Juan Mountains and runs through downtown Durango. It boasts gold medal fly fishing waters and is popular for whitewater rafting, kayaking and canoeing. On warm summer afternoons a popular diversion is to buy an inflated inner tube and float from Animas City to Schneider Park or below.
+                    </p>
+                    <img class="cultureimgs" src="images/durango-11.jpg" alt="durango-11">
+                    <p>
+                    Purgatory Resort, located 25 miles north of downtown Durango, has 99 trails, 12 lifts, a vertical drop of over 2,000 feet, and more than 1,500 acres of skiable terrain. The resort features lodging, ski rentals, shopping, and dining. Purgatory is also a popular summertime recreation destination.
+                    </p>
+                    <img class="cultureimgs" src="images/durango-09.jpg" alt="durango-09">
+                    <p>
+                    Mesa Verde, Spanish for green table, offers a spectacular look into the lives of the Ancestral Pueblo people who made it their home for over 700 years, from A.D. 600 to 1300. Today the park protects nearly 5,000 known archaeological sites, including 600 cliff dwellings. These sites are some of the most notable and best preserved in the United States.
+                    </p>
+                    <p>
+                        Mesa Verde was "discovered" in the 1800s and was established as a National Park by President Theodore Roosevelt on June 29, 1906. Yet, about 1,400 years ago, long before Europeans explored North America, a group of people living in the Four Corners region chose Mesa Verde for their home. For more than 700 years they and their descendants lived and flourished here, eventually building elaborate stone communities in the sheltered alcoves of the canyon walls. Then, in the late A.D. 1200s, in the span of a generation or two, they left their homes and moved away. Mesa Verde National Park preserves a spectacular reminder of this ancient culture. The continued preservation of both cultural and natural resources is the continued focus of the park's research and resource management staff.
+                    </p>
+
+                </li>
+            </ul>
+        </div>
+        </a>
+        <a id="Sources">
+        <div>
+            <ul>
+                <li class="subtitles">Sources</li>
+                <li>
+                    <p>Sources for this website were found on <a href="https://en.wikipedia.org/wiki/Durango,_Colorado">Wikipedia</a> and <a href="https://www.durango.org/">Visit Durango</a></p>
+                </li>
+            </ul>
+        </div>
+        </a>
+        </main>
+    </body>
+</html>
